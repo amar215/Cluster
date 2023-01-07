@@ -120,6 +120,22 @@ i {
     background-color: gray;
 }
 
+.testimonial {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.testimonialText {
+    margin: 10px;
+}
+
+.testimonialImg {
+    border-radius: 50%;
+    width: 6rem;
+}
+
 .contactPage {
     height: 50vh;
     padding: 5rem 3rem;
@@ -159,20 +175,4 @@ footer > a {
 
 footer > p {
     margin: 3rem;
-}
-
-.testimonial {
-    display: flex;
-    text-align: center;
-    align-items: center;
-
-}
-
-.testimonialText {
-    margin: 10px;
-}
-
-.testimonialImg {
-    border-radius: 50%;
-    width: 6rem;
 }
